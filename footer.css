@@ -1,0 +1,24 @@
+footer{
+    width: 100%;
+    height: 120px;
+    background: silver;
+    /* FLEX */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer *{
+    margin: 0 165px;
+}
+footer>img{
+    width: 112px;
+}
+footer>button{
+    width: 167px;
+    height: 63px;
+    border-radius: 31px;
+    background: var(--gradient-color);
+    /* FONT */
+    font-weight: 700;
+    font-size: 18px;
+}

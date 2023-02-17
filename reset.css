@@ -1,0 +1,11 @@
+*{
+    /* my setti */
+    color: rgb(229, 231, 203);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style-type: none;
+    border: 0;
+}

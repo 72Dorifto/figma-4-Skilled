@@ -1,0 +1,74 @@
+/* CONTAINER */
+.six-divs {
+    width: 1090px;
+    height: 748px;
+    margin: 30px auto;
+    /* FLEX */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+/* ALL DIVS OPTIONS */
+.six-divs>div {
+    border-radius: 20px;
+    padding: 40px 32px;
+    background: linear-gradient(180deg, #13183f, #1e2665)
+}
+/* FIRST COLORFUL DIV */
+.six-divs>div:first-child {
+    background: var(--gradient-color);
+}
+
+.six-divs>div:first-child>p {
+    /* FONT */
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 800;
+}
+
+/* FIVE REST DIVS */
+.six-divs>div {
+    position: relative;
+    /* FLEX */
+    flex-basis: 350px;
+    height: 322px;
+}
+
+/* EVERYTHING INSIDE DIVS */
+.six-divs>div * {
+    margin-top: 24px;
+}
+
+/* LOGOES */
+.six-divs>div>img {
+    position: absolute;
+    top: calc(var(--six-divs-logo-wid) / 2 * -1 - 24px);
+    left: calc(var(--six-divs-logo-wid) / 2);
+    width: var(--six-divs-logo-wid);
+    height: var(--six-divs-logo-wid);
+}
+
+/* HEADERS INSIDE DIVS  */
+.six-divs>div>h3 {
+    /*FONT  */
+    font-size: 24px;
+    font-weight: 800;
+}
+
+/* PARAGRAPHS INSIDE DIVS */
+.six-divs>div>p {
+    /* FONT */
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/* BUTTONS INSIDE DIVS */
+.six-divs>div>button {
+    background: transparent;
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 700;
+}

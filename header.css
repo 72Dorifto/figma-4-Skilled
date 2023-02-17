@@ -1,0 +1,44 @@
+#coffee-girl {
+    width: var(--coffee-girl-wid);
+    position: absolute;
+    right: calc(var(--coffee-girl-wid) / -3);
+    top: calc(var(--coffee-girl-wid) / -11);
+}
+
+header {
+    /* border: 1px dashed red; */
+    max-width: 700px;
+    padding: 26px 0 0 165px;
+}
+
+header>img {
+    width: var(--skilled-logo-wid);
+}
+
+header>h1 {
+    margin-top: 186px;
+    /* FONT */
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 70px;
+}
+
+header>p {
+    margin-top: 29px;
+    max-width: 445px;
+    /* FONT */
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+header>button {
+    margin-top: 40px;
+    width: 167px;
+    height: 63px;
+    border-radius: 31px;
+    background: var(--gradient-color);
+    /* FONT */
+    font-weight: 700;
+    font-size: 18px;
+}

@@ -1,0 +1,20 @@
+:root {
+    --coffee-girl-wid: 800px;
+    --gradient-color: linear-gradient(180deg, #FF6F48, #F02AA6);
+    --six-divs-logo-wid: 56px;
+    --skilled-logo-wid: 112px;
+}
+
+* {
+    font-family: 'Plus Jakarta Sans';
+    color: white;
+}
+
+body {
+    background: #13183f;
+    overflow-x: hidden;
+}
+
+button, header>img:first-of-type, footer>:first-child, .six-divs>:first-child{
+    cursor: pointer;
+}
