@@ -14,28 +14,22 @@
 .six-divs>div {
     border-radius: 20px;
     padding: 40px 32px;
-    background: linear-gradient(180deg, #13183f, #1e2665)
+    background: linear-gradient(180deg, #13183f, #1e2665);
+    position: relative;
+    /* FLEX */
+    flex-basis: 350px;
+    height: 322px;
 }
 /* FIRST COLORFUL DIV */
 .six-divs>div:first-child {
     background: var(--gradient-color);
 }
-
 .six-divs>div:first-child>p {
     /* FONT */
     font-size: 32px;
     line-height: 40px;
     font-weight: 800;
 }
-
-/* FIVE REST DIVS */
-.six-divs>div {
-    position: relative;
-    /* FLEX */
-    flex-basis: 350px;
-    height: 322px;
-}
-
 /* EVERYTHING INSIDE DIVS */
 .six-divs>div * {
     margin-top: 24px;
