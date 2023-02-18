@@ -34,7 +34,6 @@
 .six-divs>div * {
     margin-top: 24px;
 }
-
 /* LOGOES */
 .six-divs>div>img {
     position: absolute;
@@ -61,6 +60,8 @@
 
 /* BUTTONS INSIDE DIVS */
 .six-divs>div>button {
+    position: absolute;
+    bottom: 40px;
     background: transparent;
     color: #F74780;
     font-size: 18px;
